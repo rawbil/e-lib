@@ -6,7 +6,7 @@
         </a>
 
         <ul id="sidebar"
-            class="flex items-center font-bold max-630px:flex-col max-630px:items-start max-630px:rounded max-630px:shadow-md  max-630px:border-t max-630px:shadow-light max-630px:fixed max-630px:top-[15px] max-630px:right-1 max-630px:bg-dark max-630px:gap-5 max-630px:h-[210px] max-630px:p-2 max-630px:pt-14 max-200px:right-0 max-200px:top-[70px] max-630px:hidden">
+            class="flex items-center font-bold max-630px:flex-col max-630px:items-start max-630px:rounded max-630px:shadow-md  max-630px:border-y max-630px:fixed max-630px:top-[15px] max-630px:right-1 max-630px:bg-dark max-630px:gap-5 max-630px:h-[210px] max-630px:p-2 max-630px:pt-14 max-200px:right-0 max-200px:top-[70px] max-630px:hidden">
             <li
                 class="mx-6 max-1000px:mx-2 max-630px:mx-1 cursor-pointer hover:bg-light hover:text-dark transition-all rounded duration-300 ">
                 <a href="/library-catalogue" class="p-1">Library Catalogue</a>
@@ -34,8 +34,6 @@
             <i id="closeSidebar" class="fa-solid fa-xmark text-2xl cursor-pointer hidden"></i>
         </section>
     </nav>
-    <script src="js/main.js">
-
-    </script>
+    <script src="js/main.js"></script>
     </nav>
 </header>
