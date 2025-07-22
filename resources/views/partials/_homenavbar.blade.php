@@ -2,6 +2,7 @@
     class=" w-full mx-auto bg-dark p-4 px-5 rounded mt-2  max-630px:mt-0 max-630px:rounded-none max-630px:p-5 font-mono shadow shadow-slate-500">
     <nav class="text-light flex justify-between items-center">
         <a href='/' class ="text-2xl max-600px:text-xl font-bitcount">
+            {{-- <img src="{{ asset('images/logo.png') }}" class="w-[120px] h-[50px] border" /> --}}
             e-library
         </a>
 

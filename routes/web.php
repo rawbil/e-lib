@@ -35,7 +35,9 @@ Route::get('/', function() {
     return view('welcome');
 });
 
-
+Route::get('/library-catalogue', function() {
+    return view('library-catalog');
+});
 
 
 // Route::get('/', function () {
