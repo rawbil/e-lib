@@ -13,7 +13,20 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                bitcount: ['Bitcount', ...defaultTheme.fontFamily.mono],
+                inter: ['Inter', 'sans-serif']
             },
+            colors: {
+                'dark': '#000',
+                'light': '#fff',
+            },
+            screens: {
+                '1800px': '1800px',
+                '1000px': '1000px',
+                '630px': '630px',
+                '600px': '600px',
+                '200px': '200px',
+            }
         },
     },
 
