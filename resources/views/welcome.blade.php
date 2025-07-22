@@ -1,5 +1,7 @@
 @extends('layouts.home')
 @section('content')
 
-<h1 class="text-red-500">Heyyy</h1>
+<section>
+    @include('partials._homefeatures')
+</section>
 @endsection
