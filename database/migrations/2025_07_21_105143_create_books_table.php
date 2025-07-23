@@ -10,9 +10,9 @@ return new class extends Migration
         Schema::create('books', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->foreignId('author_id')->constrained()->onDelete('cascade');
-            $table->foreignId('category_id')->constrained()->onDelete('cascade');
-            $table->string('isbn')->unique();
+            // $table->foreignId('author_id')->constrained()->onDelete('cascade');
+            // $table->foreignId('category_id')->constrained()->onDelete('cascade');
+            // $table->string('isbn')->unique();
             $table->text('description')->nullable();
             $table->integer('total_copies')->default(1);
             $table->integer('available_copies')->default(1);

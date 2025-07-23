@@ -2,11 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Catalogue extends Model
 {
-    public function searchFilter($query, array $filters)
+    use HasFactory;
+    public function scopeFilter($query, array $filters)
     {
         //search
         if ($filters['search'] ?? false) {
