@@ -23,5 +23,10 @@ class Catalogue extends Model
         if ($filters['tags'] ?? false) {
             $query->where('tags', 'like', '%' . $filters['tags'] . '%');
         }
+
+        //category
+         if ($filters['category'] ?? false) {
+            $query->where('category', 'like', '%' . $filters['category'] . '%');
+        }
     }
 }

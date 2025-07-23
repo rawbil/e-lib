@@ -32,11 +32,18 @@ use Illuminate\Support\Facades\Route;
 // });
 //*END*//
 
+//home page
 Route::get('/', function() {
     return view('welcome');
 });
 
+//library-catalogue
 Route::get('/library-catalogue', [CatalogueController::class, 'index']);
+
+//exam-bank
+Route::get('/exam-bank', function() {
+    return response('<p>Exams Coming Soon!!</p>');
+});
 
 
 // Route::get('/', function () {
