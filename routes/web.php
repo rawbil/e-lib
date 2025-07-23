@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 
 
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\CatalogueController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -35,9 +36,7 @@ Route::get('/', function() {
     return view('welcome');
 });
 
-Route::get('/library-catalogue', function() {
-    return view('library-catalog');
-});
+Route::get('/library-catalogue', [CatalogueController::class, 'index']);
 
 
 // Route::get('/', function () {

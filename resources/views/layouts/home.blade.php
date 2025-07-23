@@ -16,8 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- include the compiled css -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <!-- Find out why the text 'Home' isn't appearing in title -->
-    <title>{{ config('app.name', 'Home') }}</title>
+    <title>{{ config('app.name'). ' Home' }}</title>
 </head>
 
 <body class="text-black 1000px:max-w-[90%] w-full mx-auto max-1000px:px-2 max-630px:px-0 font-inter">

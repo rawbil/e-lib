@@ -1,5 +1,5 @@
 <form action="/library-catalogue" class="max-600px:mx-1">
-    <label for="search" class="text-black/70">Search for (title, author, keywords or category)</label>
+    <label for="search" class="text-black/70">Search for (title, author, tags or category)</label>
     <article class=" shadow shadow-dark flex items-center rounded relative ">
         <input type="search" name="search" id="search"
             class="w-full border-none focus:ring-0 focus:outline-none outline-none bg-transparent py-3 placeholder:text-start placeholder:pl-8 pl-8"

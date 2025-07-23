@@ -5,8 +5,8 @@
         <article class="py-4 border-b border-light/40">
             <p id="q1" class="flex justify-between items-center cursor-pointer group ">
                 <span class="group-hover:text-light/50 transition-all">How do I borrow a book?</span>
-                <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i>
-                {{-- <i class="fa-solid fa-chevron-down"></i> --}}
+                {{-- <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i> --}}
+                <i class="fa-solid fa-chevron-down"></i>
             </p>
 
             <p id="a1" class="hidden pt-5 text-light/90">
@@ -19,8 +19,8 @@
         <article class="py-4 border-b border-light/40">
             <p id="q2" class="flex justify-between items-center cursor-pointer group ">
                 <span class="group-hover:text-light/50 transition-all">How do I return a book?</span>
-                <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i>
-                {{-- <i class="fa-solid fa-chevron-down"></i> --}}
+                {{-- <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i> --}}
+                <i class="fa-solid fa-chevron-down"></i>
             </p>
 
             <p id="a2" class="hidden pt-5 text-light/90">
@@ -33,8 +33,8 @@
         <article class="py-4 border-b border-light/40">
             <p id="q3" class="flex justify-between items-center cursor-pointer group ">
                 <span class="group-hover:text-light/50 transition-all">How do I borrow a book?</span>
-                <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i>
-                {{-- <i class="fa-solid fa-chevron-down"></i> --}}
+                {{-- <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i> --}}
+                <i class="fa-solid fa-chevron-down"></i>
             </p>
 
             <p id="a3" class="hidden pt-5 text-light/90">
@@ -46,8 +46,8 @@
         <article class="py-4 ">
             <p id="q4" class="flex justify-between items-center cursor-pointer group ">
                 <span class="group-hover:text-light/50 transition-all">How do I find the book I want?</span>
-                <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i>
-                {{-- <i class="fa-solid fa-chevron-down"></i> --}}
+                {{-- <i class="fa-solid fa-chevron-up group-hover:text-light/80 transition-all"></i> --}}
+                <i class="fa-solid fa-chevron-down"></i>
             </p>
 
             <p id="a4" class="hidden pt-5 text-light/90">

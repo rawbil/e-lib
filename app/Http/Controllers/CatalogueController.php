@@ -2,11 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Catalogue;
 use Illuminate\Http\Request;
 
 class CatalogueController extends Controller
 {
-    public static function make() {
-        return view('');
+    //get all books
+    public function index()
+    {
+        //dd(request('search'));
+        return view('library-catalogue', [
+            'books' => Catalogue::latest()
+            ->filter(request(['search', 'tags']))
+            ->paginate(10)
+        ]);
     }
 }
