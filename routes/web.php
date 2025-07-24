@@ -7,6 +7,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\CatalogueController;
 use App\Http\Controllers\DashboardController;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Route;
 
 // Public Routes (Guest access)
@@ -39,6 +40,12 @@ Route::get('/', function() {
 
 //library-catalogue
 Route::get('/library-catalogue', [CatalogueController::class, 'index']);
+
+//book with id
+Route::get('/book/{id}', function($id) {
+    // You can use $id here
+    return view('book-info');
+});
 
 //exam-bank
 Route::get('/exam-bank', function() {

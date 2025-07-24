@@ -13,8 +13,8 @@ class CatalogueController extends Controller
         //dd(request('search'));
         return view('library-catalogue', [
             'books' => Catalogue::latest()
-            ->filter(request(['search', 'tags', 'category']))
-            ->paginate(10)
+                ->filter(request(['search', 'tags', 'category']))
+                ->paginate(10)
         ]);
     }
 }
